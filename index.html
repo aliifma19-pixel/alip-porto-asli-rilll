@@ -1,0 +1,515 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Digital | Alif</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="#" class="brand-logo" onclick="switchPage('beranda'); return false;">
+            Dwi.Dev
+        </a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#" id="nav-beranda" class="active"
+                   onclick="switchPage('beranda'); return false;">
+                    🏠 Beranda
+                </a>
+            </li>
+
+            <li>
+                <a href="#" id="nav-tentang"
+                   onclick="switchPage('tentang'); return false;">
+                    👤 Tentang Saya
+                </a>
+            </li>
+
+            <li>
+                <a href="#" id="nav-jaringan"
+                   onclick="switchPage('jaringan'); return false;">
+                    🌐 Jaringan Komputer
+                </a>
+            </li>
+
+            <li>
+                <a href="#" id="nav-iot"
+                   onclick="switchPage('iot'); return false;">
+                    🤖 IoT & Arduino
+                </a>
+            </li>
+
+            <li>
+                <a href="#" id="nav-karya"
+                   onclick="switchPage('karya'); return false;">
+                    💡 Galeri Proyek
+                </a>
+            </li>
+
+            <li>
+                <a href="#" id="nav-kontak"
+                   onclick="switchPage('kontak'); return false;">
+                    📬 Kontak
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- BERANDA -->
+    <section id="beranda" class="page-section active-page">
+
+        <div class="hero-section">
+
+            <img
+                src="foyoalifai.jpg"
+                alt="Foto Profil"
+                class="profile-pic"
+            >
+
+            <h1>Halo, Saya Alif</h1>
+
+            <h2>
+                Siswa Kelas XII - Peminatan Rekayasa Perangkat Lunak / Informatika
+            </h2>
+
+            <p class="hero-description">
+                Selamat datang di etalase digital saya.
+                Website ini saya bangun sebagai portofolio perjalanan belajar
+                dan dokumentasi karya praktikum selama setahun ke depan.
+            </p>
+
+            <button class="btn" onclick="switchPage('karya')">
+                Lihat Proyek Saya
+            </button>
+
+        </div>
+
+
+        <article class="skills-summary">
+
+            <h3>Ringkasan Keahlian</h3>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    🌐 HTML5 & Semantik
+                </div>
+
+                <div class="skill-card">
+                    🎨 CSS & Flexbox
+                </div>
+
+                <div class="skill-card">
+                    💻 Pemrograman Dasar
+                </div>
+
+                <div class="skill-card">
+                    🔌 Jaringan Dasar
+                </div>
+
+                <div class="skill-card">
+                    🧩 Problem Solving
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- TENTANG SAYA -->
+    <section id="tentang" class="page-section">
+
+        <h2 class="section-title">
+            👤 Tentang Saya
+        </h2>
+
+        <div class="card">
+
+            <table class="biodata-table">
+
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>Alif [Alif Maulana]</td>
+                </tr>
+
+                <tr>
+                    <td>Kelas / Jurusan</td>
+                    <td>XII-5 / Informatika (RPL)</td>
+                </tr>
+
+                <tr>
+                    <td>Riwayat Pendidikan</td>
+                    <td>
+                        SMA Negeri [SMAN2 Kota Mojokerto]
+                        (2024 - Sekarang)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Minat Studi Masa Depan</td>
+                    <td>
+                        Teknik Informatika /
+                        Ilmu Komputer /
+                        Cyber Security
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <h2 class="section-title">
+            📸 Galeri Aktivitas Belajar
+        </h2>
+
+        <p class="gallery-description">
+            Dokumentasi kegiatan saat praktikum di laboratorium komputer sekolah.
+        </p>
+
+        <div class="gallery-grid">
+
+            <img
+                src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=400&q=80"
+                alt="Praktikum Lab Komputer 1"
+                class="gallery-img"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=400&q=80"
+                alt="Diskusi Kelompok"
+                class="gallery-img"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80"
+                alt="Praktikum Hardware"
+                class="gallery-img"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- JARINGAN -->
+    <section id="jaringan" class="page-section">
+
+        <h2 class="section-title">
+            🌐 Modul Jaringan Komputer
+        </h2>
+
+        <div class="card">
+
+            <h3>
+                [Draft] Konfigurasi IP Address & Topologi Jaringan
+            </h3>
+
+            <p>
+                <strong>Status:</strong>
+                Halaman ini disiapkan untuk tugas Simulasi
+                Cisco Packet Tracer & Analisis Protokol
+                yang akan dipelajari di semester ini.
+            </p>
+
+            <br>
+
+            <div class="placeholder-box">
+                <em>
+                    Placeholder Dokumentasi / Screenshot
+                    Topologi Jaringan Cisco akan ditampilkan di sini.
+                </em>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- IOT -->
+    <section id="iot" class="page-section">
+
+        <h2 class="section-title">
+            🤖 Modul Internet of Things / Arduino
+        </h2>
+
+        <div class="card">
+
+            <h3>
+                [Draft] Skematik Sirkuit & Sensor
+            </h3>
+
+            <p>
+                <strong>Status:</strong>
+                Menunggu penugasan perakitan sensor
+                (LCD, Servo, DHT) dan simulasi Wokwi / Fritzing.
+            </p>
+
+            <br>
+
+            <div class="placeholder-box">
+                <em>
+                    Placeholder Skematik Rangkaian dan Baris Program
+                    C/C++ akan diunggah ke halaman ini.
+                </em>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALERI PROYEK -->
+    <section id="karya" class="page-section">
+
+        <h2 class="section-title">
+            💡 Galeri Proyek & Kolaborasi
+        </h2>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&q=80"
+                    alt="Proyek Web Dasar"
+                >
+
+                <div class="project-info">
+
+                    <h3>
+                        Website Profil Sekolah (HTML & CSS)
+                    </h3>
+
+                    <p>
+                        Proyek akhir kelas XI:
+                        Membangun halaman website responsif
+                        untuk sekolah menggunakan HTML5
+                        dan CSS Flexbox murni.
+                    </p>
+
+                    <a href="#" class="btn">
+                        Lihat Demo
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&q=80"
+                    alt="Proyek Algoritma"
+                >
+
+                <div class="project-info">
+
+                    <h3>
+                        Aplikasi Kasir Sederhana
+                    </h3>
+
+                    <p>
+                        Aplikasi console (CLI) menggunakan
+                        bahasa C++ untuk menghitung total
+                        belanjaan dan diskon pelanggan.
+                    </p>
+
+                    <a href="#" class="btn">
+                        Github Repo
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- KONTAK -->
+    <section id="kontak" class="page-section">
+
+        <h2 class="section-title">
+            📬 Hubungi Saya
+        </h2>
+
+        <div class="contact-container">
+
+            <div class="card">
+
+                <h3>Formulir Pesan</h3>
+
+                <form action="#" method="POST">
+
+                    <div class="form-group">
+                        <label for="nama">
+                            Nama Pengirim
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nama"
+                            name="nama"
+                            class="form-control"
+                            required
+                            placeholder="Masukkan nama Anda"
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">
+                            Alamat Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            class="form-control"
+                            required
+                            placeholder="email@contoh.com"
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="kategori">
+                            Kategori Pesan
+                        </label>
+
+                        <select
+                            id="kategori"
+                            name="kategori"
+                            class="form-control"
+                        >
+
+                            <option value="pertanyaan">
+                                Pertanyaan
+                            </option>
+
+                            <option value="kolaborasi">
+                                Kolaborasi Proyek
+                            </option>
+
+                            <option value="saran">
+                                Saran & Masukan
+                            </option>
+
+                        </select>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="pesan">
+                            Pesan Teks
+                        </label>
+
+                        <textarea
+                            id="pesan"
+                            name="pesan"
+                            class="form-control"
+                            required
+                            placeholder="Tuliskan pesan Anda di sini..."
+                        ></textarea>
+                    </div>
+
+
+                    <button type="submit" class="btn">
+                        Kirim Pesan
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>
+                    Informasi Kontak Tambahan
+                </h3>
+
+                <ul class="contact-list">
+
+                    <li>
+                        📧
+                        <strong>Email Sekolah:</strong>
+                        dwi.siswa@sekolah.sch.id
+                    </li>
+
+                    <li>
+                        📍
+                        <strong>Lokasi:</strong>
+                        Kota [Nama Kotamu], Indonesia
+                    </li>
+
+                    <li>
+                        💼
+                        <strong>GitHub:</strong>
+                        <a href="#" class="contact-link">
+                            github.com/dwi-dev
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <div class="contact-note">
+                    <p>
+                        <em>
+                            Terima kasih telah mengunjungi portofolio saya.
+                            Saya sangat terbuka untuk diskusi terkait
+                            pemrograman dan teknologi jaringan!
+                        </em>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        &copy; 2026 Portofolio Dwi -
+        Siswa Kelas XII Informatika.
+        Dibuat untuk Proyek Pembelajaran.
+    </p>
+
+    <p class="footer-source">
+        Lihat kode sumber di
+        <a href="#">GitHub</a>
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
